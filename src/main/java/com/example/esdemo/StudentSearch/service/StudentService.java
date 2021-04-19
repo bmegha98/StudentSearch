@@ -129,7 +129,7 @@ public class StudentService {
   }
 
   public HttpStatus bulkIngest() throws IOException, InterruptedException {
-    File jsonFile = new File("/home/meghabisht/Downloads/Students.json");
+    File jsonFile = new File("Students.json");
     log.info(String.valueOf(jsonFile));
     FileReader fr = new FileReader(jsonFile);
     BufferedReader bufferedReader = new BufferedReader(fr);
